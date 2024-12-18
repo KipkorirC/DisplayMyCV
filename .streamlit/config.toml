@@ -1,0 +1,19 @@
+[theme]
+# Primary accent color for interactive elements.
+primaryColor = "#FF6F61"  # A vibrant coral color for accents
+
+# Background color for the main content area.
+backgroundColor = "#1E1E1E"  # Dark gray for the main background
+
+# Background color used for the sidebar and most interactive widgets.
+secondaryBackgroundColor = "#2A2A2A"  # Slightly lighter gray for the sidebar
+
+# Color used for almost all text.
+textColor = "#EAEAEA"  # Light gray for better contrast against dark backgrounds
+
+# Font family for all text in the app, except code blocks. One of "sans serif", "serif", or "monospace".
+font = "sans serif"
+
+# Additional styles for a modern look
+[global]
+fontSize = "16px"  # Increase font size for better readability
