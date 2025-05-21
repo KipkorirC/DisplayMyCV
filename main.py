@@ -54,37 +54,34 @@ except FileNotFoundError:
 st.markdown(
     """
     <style>
-    /* Adjusting tab spacing and tab size */
     .stTabs [data-baseweb="tab"] {
         background-color: #292929;
         color: #A9A9A9;
         font-weight: bold;
         border-radius: 5px;
-        margin-right: 20px;  /* Increased space between tabs */
-        padding: 15px 30px;  /* Increased padding for larger tabs */
+        margin-right: 20px;
+        padding: 15px 30px;
         transition: background-color 0.3s ease, color 0.3s ease;
     }
-    
+
     .stTabs [data-baseweb="tab"]:hover {
         background-color: #1e90ff;
         color: white;
     }
-    
+
     .stTabs [aria-selected="true"] {
         background-color: #1e90ff;
         color: white;
     }
 
-    /* Sticky tabs to stay at the top */
     .stTabs {
         position: sticky;
         top: 0;
-        z-index: 10; /* Ensure the tabs stay on top when scrolling */
-        background-color: #292929; /* Background color to match */
-        padding: 10px 0; /* Adjust vertical padding */
+        z-index: 10;
+        background-color: #292929;
+        padding: 10px 0;
     }
 
-    /* Reduce space between title and tabs */
     .stMarkdown h1 {
         margin-top: 0px;
     }
@@ -122,6 +119,19 @@ with tabs[0]:
 # Tab 2: Experience
 with tabs[1]:
     st.header("💼 Professional Experience")
+
+    st.subheader("Kenya Revenue Authority(KRA)")
+    st.write("**ICT - Capacity and Monitoring Intern**")
+    st.write("May 2025 – Present | Kenya")
+    st.write(
+        """
+        - Monitored the performance, uptime, and health of IT infrastructure, identifying and escalating potential issues proactively.  
+        - Assisted in analyzing usage trends and forecasting system capacity needs to support scalability and efficient resource allocation.  
+        - Supported incident response by gathering logs, investigating root causes, and preparing detailed incident reports.  
+        - Generated regular performance and capacity reports, highlighting key metrics, system trends, and areas for improvement.  
+        - Maintained and optimized monitoring tools and dashboards to ensure accurate visualization of system health and performance data.
+        """
+    )
 
     st.subheader("KCB Bank Group")
     st.write("**Intern**")
@@ -199,6 +209,7 @@ with tabs[3]:
         - **Programming Languages:** C/C++, Python, R
         - **Web Development:** PHP, FastAPI, Streamlit, ASP.NET
         - **Operating Systems:** Windows, macOS, Linux
+        - **Monitoring Tools** Nagios and Nagvis, Grafana, Zabbix, Elastic Search, DCIM, Maglink
         """
     )
 
@@ -212,4 +223,4 @@ with tabs[4]:
     st.write("**Anthony Sifuma** - Accountant - Telecoms Division, Kenya Power and Lighting Company")
     st.write("📧 ASifuma@kplc.co.ke | 📞 +254726854763")
     st.write("**Hafiz Nauman Yousaf** - Mentor, Egis Foundation")
-    st.write("📧Hafiz.yousaf.358@gmail.com | 📞 +971504890358")
+    st.write("📧 Hafiz.yousaf.358@gmail.com | 📞 +971504890358")
